@@ -4,9 +4,15 @@ import { createRoot } from "react-dom/client";
 // import App from "./App.jsx";
 import Navbar from "./components/Navbar.jsx";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    {/* <App /> */}
-    <Navbar />
-  </StrictMode>
-);
+let heading = document.createElement("h1");
+let root = document.getElementById("root");
+heading.textContent = "Hello World!";
+heading.classList.add("heading");
+root.appendChild(heading);
+
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     {/* <App /> */}
+//     <Navbar />
+//   </StrictMode>
+// );
