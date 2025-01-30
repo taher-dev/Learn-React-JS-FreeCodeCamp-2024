@@ -1,0 +1,29 @@
+main {
+  position: relative;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-top: 50px;
+  min-height: 50vh;
+}
+
+.main-title {
+  font-size: 3rem;
+}
+
+.main-list {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.main-list li {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.background-img-react {
+  position: absolute;
+  top: 5%;
+  right: -8%;
+  width: 300px;
+  opacity: 0.1;
+  z-index: -1;
+}
