@@ -1,13 +1,17 @@
 import "./Card.css";
 const Card = (props) => {
+  console.log(props);
+
   return (
-    <section className="card">
-      <div className="card_main-img">
-        <img src={props.img.src} alt={props.img.alt} />
+    <>
+      <div className="card">
+        <img
+          className="card_main-img"
+          src={props.img.src}
+          alt={props.img.alt}
+        />
       </div>
-      <h2>{props.title}</h2>
-      <p>{props.country}</p>
-    </section>
+    </>
   );
 };
 
