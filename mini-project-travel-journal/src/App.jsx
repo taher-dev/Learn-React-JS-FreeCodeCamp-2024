@@ -9,12 +9,13 @@ const App = () => {
     return (
       <Card
         key={item.id}
-        img={item.img}
-        title={item.title}
-        country={item.country}
-        googleMapsLink={item.googleMapsLink}
-        dates={item.dates}
-        text={item.text}
+        // img={item.img}
+        // title={item.title}
+        // country={item.country}
+        // googleMapsLink={item.googleMapsLink}
+        // dates={item.dates}
+        // text={item.text}
+        item={item} // short
       />
     );
   });
