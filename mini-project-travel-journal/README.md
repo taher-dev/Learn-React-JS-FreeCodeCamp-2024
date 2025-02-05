@@ -16,6 +16,7 @@ It is a simple react mini project which demonstrates **react props.**
 - React props.
 - Mapping components.
 - Spread object as props.
+- Line clamps.
 
 ## 🛠️ Setup Instructions
 
