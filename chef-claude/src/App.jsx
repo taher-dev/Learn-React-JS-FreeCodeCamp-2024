@@ -6,7 +6,12 @@ const App = () => {
   return (
     <>
       <header>
-        <img src={chefLogo} alt="chef icon" />
+        <img
+          onClick={() => window.location.reload()}
+          src={chefLogo}
+          alt="chef icon"
+          className="nav-logo"
+        />
       </header>
 
       <Main />
