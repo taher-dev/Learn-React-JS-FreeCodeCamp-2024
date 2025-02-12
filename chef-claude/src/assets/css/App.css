@@ -72,9 +72,20 @@ main {
   font-family: Inter, sans-serif;
   font-weight: 500;
   line-height: 20px;
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .ingredient-form button::before {
   content: "+";
   margin-right: 6px;
+}
+
+.ingredient-form button:hover {
+  background: #262624;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.ingredient-form button:active {
+  background: #0f0f0e;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.15);
 }
